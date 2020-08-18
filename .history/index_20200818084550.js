@@ -21,8 +21,4 @@ const fareDoubler = (fare)=>{
     
 const fareTripler = (fare)=>{
     return fare *3;
-};
-
-const selectDifferentDrivers = (drivers,func) =>{
-    return func(drivers);
-};
+}
