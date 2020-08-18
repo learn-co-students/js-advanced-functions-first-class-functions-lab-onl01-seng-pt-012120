@@ -16,13 +16,6 @@ const createFareMultiplier = (num) =>{
 };
 
 const fareDoubler = (fare)=>{
-    return fare * 2;
+    return fair * 2;
 };
     
-const fareTripler = (fare)=>{
-    return fare *3;
-};
-
-const selectDifferentDrivers = (drivers,func) =>{
-    return func(drivers);
-};

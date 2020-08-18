@@ -14,15 +14,4 @@ const createFareMultiplier = (num) =>{
         return num * multiplier;
     };
 };
-
-const fareDoubler = (fare)=>{
-    return fare * 2;
-};
     
-const fareTripler = (fare)=>{
-    return fare *3;
-};
-
-const selectDifferentDrivers = (drivers,func) =>{
-    return func(drivers);
-};
